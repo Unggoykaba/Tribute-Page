@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Verdana', 'Geneva', sans-serif;
+    line-height: 1.6;
+    overflow-x: hidden; 
+}
+
+#main {
+    background: #f0f0f0;
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 1200px;
+    box-sizing: content-box;
+}
+
+.title {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+#img-div {
+    text-align: center;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    margin: 20px auto;
+    display: block;
+}
+
+.info {
+    text-align: justify;
+}
+
+.link {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.link a {
+    color: #1e90ff;
+    text-decoration: none;
+}
+
+.link a:hover {
+    text-decoration: underline;
+}
